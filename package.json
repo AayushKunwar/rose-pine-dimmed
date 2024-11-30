@@ -1,0 +1,22 @@
+{
+  "name": "rose-pine-dimmed",
+  "displayName": "Rose Pine Dimmed",
+  "description": "modified rose pine theme with the github dimmed ui theme",
+  "version": "0.0.1",
+  "publisher": "AayushKunwar",
+  "engines": {
+    "vscode": "^1.95.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Rose Pine Dimmed",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Rose Pine Dimmed-color-theme.json"
+      }
+    ]
+  }
+}
