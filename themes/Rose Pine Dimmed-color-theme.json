@@ -290,9 +290,8 @@
 		{
 			"scope": [
 				"entity.name.section",
-				"entity.name.tag",
 				"entity.name.namespace",
-				// "entity.name.type"
+				"entity.name.type"
 			],
 			"settings": {
 				"foreground": "#9ccfd8"
@@ -300,15 +299,22 @@
 		},
 		{
 			"scope": [
-				"entity.name.type"
+				"entity.name.tag",
 			],
 			"settings": {
-				"foreground": "#F6C177"
+				"foreground": "#FC5D7C",
 			}
 		},
 		{
 			"scope": [
 				"entity.other.attribute-name",
+			],
+			"settings": {
+				"foreground": "#9ccfd8",
+			}
+		},
+		{
+			"scope": [
 				"entity.other.inherited-class"
 			],
 			"settings": {
@@ -469,6 +475,7 @@
 			],
 			"settings": {
 				"foreground": "#9CCFD8"
+				// "foreground": "#FC5D7C"
 			}
 		},
 		{
