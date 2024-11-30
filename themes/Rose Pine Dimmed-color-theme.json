@@ -292,10 +292,18 @@
 				"entity.name.section",
 				"entity.name.tag",
 				"entity.name.namespace",
-				"entity.name.type"
+				// "entity.name.type"
 			],
 			"settings": {
 				"foreground": "#9ccfd8"
+			}
+		},
+		{
+			"scope": [
+				"entity.name.type"
+			],
+			"settings": {
+				"foreground": "#F6C177"
 			}
 		},
 		{
@@ -437,7 +445,11 @@
 		},
 		{
 			"scope": [
-				"punctuation.accessor"
+				// added here
+				"punctuation.accessor",
+				"storage.type.js",
+				"storage.type.ts",
+				"storage.type.function.ts"
 			],
 			"settings": {
 				"foreground": "#5bb0ca"
@@ -462,10 +474,12 @@
 		{
 			"scope": [
 				"storage.type",
-				"storage.modifier"
+				"storage.modifier",
+				"support.type"
 			],
 			"settings": {
-				"foreground": "#5bb0ca"
+				// "foreground": "#5bb0ca"
+				"foreground": "#9ccfd8"
 			}
 		},
 		{
