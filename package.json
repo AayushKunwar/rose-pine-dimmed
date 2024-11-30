@@ -4,6 +4,10 @@
   "description": "modified rose pine theme with the github dimmed ui theme",
   "version": "0.0.1",
   "publisher": "AayushKunwar",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AayushKunwar/rose-pine-dimmed"
+  },
   "engines": {
     "vscode": "^1.95.0"
   },
