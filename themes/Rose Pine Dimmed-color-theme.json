@@ -263,17 +263,11 @@
 			}
 		},
 		{
-			"scope": [],
-			"settings": {
-				"foreground": "#9CCFD8"
-			}
-		},
-		{
 			"scope": [
 				"constant",
 			],
 			"settings": {
-				"foreground": "#5bb0ca"
+				"foreground": "#9CCFD8"
 			}
 		},
 		{
