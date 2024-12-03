@@ -263,8 +263,14 @@
 			}
 		},
 		{
+			"scope": [],
+			"settings": {
+				"foreground": "#9CCFD8"
+			}
+		},
+		{
 			"scope": [
-				"constant"
+				"constant",
 			],
 			"settings": {
 				"foreground": "#5bb0ca"
@@ -273,10 +279,9 @@
 		{
 			"scope": [
 				"constant.numeric",
-				"constant.language"
 			],
 			"settings": {
-				"foreground": "#ea9a97"
+				"foreground": "#C4A7E7"
 			}
 		},
 		{
@@ -475,7 +480,6 @@
 			],
 			"settings": {
 				"foreground": "#9CCFD8"
-				// "foreground": "#FC5D7C"
 			}
 		},
 		{
@@ -485,7 +489,6 @@
 				"support.type"
 			],
 			"settings": {
-				// "foreground": "#5bb0ca"
 				"foreground": "#9ccfd8"
 			}
 		},
