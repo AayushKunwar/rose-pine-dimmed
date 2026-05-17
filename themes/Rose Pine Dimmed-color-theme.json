@@ -280,7 +280,8 @@
 		},
 		{
 			"scope": [
-				"entity.name.function"
+				"entity.name.function",
+				"meta.function-call"
 			],
 			"settings": {
 				"foreground": "#ea9a97"
@@ -521,7 +522,11 @@
 		},
 		{
 			"scope": [
-				"variable"
+				"variable",
+				"meta.member.access.python",
+				"meta.attribute.python",
+				"meta.member.access",
+				"meta.attribute"
 			],
 			"settings": {
 				"foreground": "#CDD3DE",

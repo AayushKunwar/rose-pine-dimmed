@@ -1,9 +1,10 @@
 {
-  "name": "rose-pine-dimmed",
+  "name": "rose-pine-dimmed-alt",
   "displayName": "Rose Pine Dimmed",
   "description": "modified rose pine theme with the github dimmed ui theme",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "publisher": "AayushKunwar",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/AayushKunwar/rose-pine-dimmed"
@@ -15,12 +16,22 @@
     "Themes"
   ],
   "contributes": {
-    "themes": [
-      {
-        "label": "Rose Pine Dimmed",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Rose Pine Dimmed-color-theme.json"
-      }
-    ]
+   "themes": [
+			{
+				"label": "Rose Pine Dimmed",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Rose Pine Dimmed-color-theme.json"
+			},
+			{
+				"label": "Rose Pine modified",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Rose Pine Modified-color-theme.json"
+			},
+			{
+				"label": "Rose Pine Modified v2",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Rose Pine ModifiedV2-color-theme.json"
+			}
+		] 
   }
 }
